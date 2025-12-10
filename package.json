@@ -1,0 +1,17 @@
+{
+  "name": "langgraph-greeting-typescript",
+  "version": "0.1.0",
+  "description": "A simple LangGraph greeting agent without LLM",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/main.ts",
+    "interactive": "tsx src/interactive.ts",
+    "start": "node dist/main.js"
+  },
+  "keywords": ["langgraph", "typescript", "agent"],
+  "author": "",
+  "license": "MIT"
+}
